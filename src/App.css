@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 300px;
+  background-color: #eef2f7;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.btn-lancer {
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-lancer:hover {
+  background-color: #2563eb;
+}
+
+.historique {
+  margin-top: 24px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chip {
+  padding: 6px 12px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
